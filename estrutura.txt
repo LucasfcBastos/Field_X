@@ -1,0 +1,18 @@
+fieldx/
+├── frontend/             # Vite + React
+│   ├── public/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── services/     # Axios para consumir API
+│   │   └── App.jsx
+├── backend/              # Node.js + Express
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   ├── middleware/
+│   ├── services/
+│   └── server.js
+├── database/
+│   └── schema.sql        # Esquema PostgreSQL
+└── mobile/               # Se for usar React Native
