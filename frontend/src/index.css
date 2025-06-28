@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "Bebas_Neue"; src: url('./font/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Nunito"; src: url('./font/Nunito-VariableFont_wght.ttf');
+}
+
 :root {
   --colorFundo: #ffffff;
   --colorTexto: #000000;
@@ -10,4 +18,18 @@
 body {
   margin: 0;
   background-color: white;
+}
+
+h1 {
+  font-family: "Bebas_Neue";
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  font-family: "Nunito";
+  text-align: center;
+}
+
+p {
+  font-family: "Nunito";
 }
