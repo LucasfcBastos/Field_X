@@ -1,0 +1,28 @@
+div.menu {
+    position: fixed;
+    background: var(--colorPrimarioFade);
+    background: linear-gradient(180deg, var(--colorPrimarioFade), var(--colorPrimario));
+    width: 100%;
+    bottom: 0;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.menu button {
+    width: 5.5em;
+    height: 5.5em;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+    padding: 1em;
+}
+
+div.menu button.select {
+    background-color: var(--colorSecundaria);
+}
+
+div.menu img {
+    width: 100%;
+}

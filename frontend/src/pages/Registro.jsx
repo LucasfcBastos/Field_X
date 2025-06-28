@@ -1,10 +1,14 @@
 import ExibirRegistro from '../components/ExibirRegistro'
 import MenuOpcoes from '../components/MenuOpcoes'
 
+import './css/Registro.css'
+
 function Registro() {
   return (
-    <div style={{ padding: '20px' }}>
-      <h1>Página de Registro</h1>
+    <div>
+      <div className='top'>
+        <h1>INÍCIO</h1>
+      </div>
       <ExibirRegistro />
       <MenuOpcoes />
     </div>
