@@ -9,7 +9,7 @@ function Intro() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      navigate('/registro')
+      navigate('/inicio')
     }, 6000)
 
     return () => clearTimeout(timer)

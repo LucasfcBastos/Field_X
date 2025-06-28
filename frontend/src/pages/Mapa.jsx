@@ -2,15 +2,15 @@ import MenuOpcoes from '../components/MenuOpcoes'
 
 import './css/Header.css'
 
-function Registro() {
+function Mapa() {
   return (
     <div>
       <header>
-        <h1>REGISTROS</h1>
+        <h1>MAPA</h1>
       </header>
       <MenuOpcoes />
     </div>
   )
 }
 
-export default Registro
+export default Mapa

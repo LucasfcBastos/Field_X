@@ -2,15 +2,15 @@ import MenuOpcoes from '../components/MenuOpcoes'
 
 import './css/Header.css'
 
-function Registro() {
+function Perfil() {
   return (
     <div>
       <header>
-        <h1>REGISTROS</h1>
+        <h1>PERFIL</h1>
       </header>
       <MenuOpcoes />
     </div>
   )
 }
 
-export default Registro
+export default Perfil

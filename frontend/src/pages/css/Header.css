@@ -3,6 +3,8 @@ header {
     background: linear-gradient(180deg, var(--colorPrimarioFade), var(--colorPrimario));
     width: 100%;
     padding: 0.1em 0;
+    top: 0;
     text-align: center;
     color: var(--colorFundo);
+    position: fixed;
 }
