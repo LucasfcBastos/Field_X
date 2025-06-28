@@ -6,9 +6,9 @@ import './css/Registro.css'
 function Registro() {
   return (
     <div>
-      <div className='top'>
+      <header>
         <h1>INÍCIO</h1>
-      </div>
+      </header>
       <ExibirRegistro />
       <MenuOpcoes />
     </div>

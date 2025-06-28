@@ -7,7 +7,7 @@ import svg_per from '../svg/perfil.svg'
 
 function MenuOpcoes() {
   return (
-    <div className='menu'>
+    <footer>
       <div>
         <button className='select'>
           <img src={svg_ini} />
@@ -33,7 +33,7 @@ function MenuOpcoes() {
           <img src={svg_per} />
         </button>
       </div>
-    </div>
+    </footer>
   )
 }
 
