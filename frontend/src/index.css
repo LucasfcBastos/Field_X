@@ -13,6 +13,8 @@
   --colorPrimarioFade: #008112;
   --colorSecundaria: #015A4A;
   --colorSecundariaAlter: #5A1C01;
+
+  --tamanhoTexto: 1.3em;
 }
 
 body {
@@ -30,6 +32,9 @@ h2 {
   text-align: center;
 }
 
-p {
+p,
+label,
+input {
   font-family: "Nunito";
+  font-size: var(--tamanhoTexto);
 }

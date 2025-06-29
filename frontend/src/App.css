@@ -1,0 +1,14 @@
+.camp_input label {
+    position: absolute;
+    background-color: white;
+    margin-left: 1em;
+    padding: 0em 1em;
+}
+
+.camp_input input {
+    width: calc(100% - 2.4em);
+    padding: 1em 1em;
+    border: 0.2em solid black;
+    border-radius: 0.5em;
+    margin-top: 0.8em;
+}

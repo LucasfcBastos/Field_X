@@ -1,0 +1,21 @@
+.user {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0em;
+}
+
+.user img {
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 100%;
+    background-color: #f0f0f0;
+}
+
+.user img.mar {
+    width: 17.5em;
+    height: 17.5em;
+    padding: 2em;
+    background-color: #f0f0f0;
+}

@@ -1,5 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 
+import './App.css'
+
 import Intro from './pages/Intro'
 import Inicio from './pages/Inicio'
 import Atividades from './pages/Atividades'
