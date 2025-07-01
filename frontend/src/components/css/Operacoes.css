@@ -2,3 +2,26 @@ p.Null {
     color: red;
     text-align: center;
 }
+
+th {
+    border: 0.2em solid var(--colorFundo);
+    background-color: var(--colorSecundaria);
+    color: var(--colorFundo);
+    padding: 0.6em 0em;
+}
+
+td {
+    border: 0.2em solid var(--colorFundo);
+    background-color: var(--colorFundo);
+    color: var(--colorTexto);
+    padding: 0.6em 0em;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: var(--colorFundo);
+}
+
+tbody tr:nth-child(even) td {
+    background-color: var(--colorFundoAlter);
+}

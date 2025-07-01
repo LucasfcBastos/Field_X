@@ -19,15 +19,15 @@ function ExibirRegistro() {
         <table style={{ width: '100%', borderCollapse: 'collapse' }}>
           <thead>
             <tr>
-              <th style={{ border: '1px solid black', padding: '8px' }}>Talhão</th>
-              <th style={{ border: '1px solid black', padding: '8px' }}>Data</th>
+              <th>Talhão</th>
+              <th>Data</th>
             </tr>
           </thead>
           <tbody>
             {operacoes.map((op, index) => (
               <tr key={index}>
-                <td style={{ border: '1px solid black', padding: '8px' }}>{op.talhao}</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>{op.data}</td>
+                <td>{op.talhao}</td>
+                <td>{op.data}</td>
               </tr>
             ))}
           </tbody>
