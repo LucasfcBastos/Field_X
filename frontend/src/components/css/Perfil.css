@@ -19,3 +19,18 @@
     padding: 2em;
     background-color: #f0f0f0;
 }
+
+button.update {
+    background-color: var(--colorPrimario);
+    font-family: "Nunito";
+    font-size: var(--tamanhoTexto);
+    font-weight: bold;
+    border-radius: 0.5em;
+    width: 6em;
+    height: 2.5em;
+    border: 0em;
+}
+
+button.update:hover {
+    background-color: var(--colorPrimarioFade);
+}

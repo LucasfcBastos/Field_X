@@ -15,11 +15,18 @@
 .btn button {
     width: 5.5em;
     height: 5.5em;
-    background-color: var(--colorSecundaria);
     border: 0;
     border-radius: 100%;
     cursor: pointer;
     padding: 1em;
+}
+
+.btn.right button {
+    background-color: var(--colorSecundaria);
+}
+
+.btn.left button {
+    background-color: var(--colorSecundariaAlter);
 }
 
 .btn img {

@@ -13,7 +13,7 @@ function Inicio() {
         <h1>INÍCIO</h1>
       </header>
       <ExibirOperacoes />
-      <BtnAcao icon={svg_add} position="right" to="/" />
+      <BtnAcao icon={svg_add} position="right" to="/inicio/adicionar" />
       <MenuOpcoes />
     </div>
   )

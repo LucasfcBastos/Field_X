@@ -34,7 +34,11 @@ h2 {
 
 p,
 label,
-input {
+input,
+th,
+td,
+textarea,
+select {
   font-family: "Nunito";
   font-size: var(--tamanhoTexto);
 }
