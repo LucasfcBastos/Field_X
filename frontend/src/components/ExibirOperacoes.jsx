@@ -1,15 +1,21 @@
 import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom'; // Importa o hook de navegação
 import './css/Operacoes.css';
 
 function ExibirRegistro() {
   const [operacoes, setOperacoes] = useState([]);
+  const navigate = useNavigate(); // Inicializa o hook
 
   useEffect(() => {
     const dados = JSON.parse(localStorage.getItem('operacoes')) || [];
     setOperacoes(dados);
-  }, []); // Executa uma vez quando o componente é carregado
+  }, []);
 
   const temOperacoes = operacoes.length > 0;
+
+  const handleClick = (id) => {
+    navigate(`/inicio/view/${id}`);
+  };
 
   return (
     <div style={{ marginTop: '6em', padding: '0em 1em', marginBottom: '7.7em' }}>
@@ -25,7 +31,7 @@ function ExibirRegistro() {
           </thead>
           <tbody>
             {operacoes.map((op, index) => (
-              <tr key={index}>
+              <tr key={index} onClick={() => handleClick(index)} style={{ cursor: 'pointer' }}>
                 <td>{op.talhao}</td>
                 <td>{op.data}</td>
               </tr>
