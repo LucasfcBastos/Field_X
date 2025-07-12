@@ -1,0 +1,18 @@
+.campRull {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24.9em;
+  height: 16.5em;
+  margin: 2em auto;
+  border: 2px dashed #ccc;
+  border-radius: 1em;
+  background-color: #fafafa;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+.campRull img {
+    height: 100%;
+}
