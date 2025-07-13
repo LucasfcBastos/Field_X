@@ -10,6 +10,7 @@ import Atividades from './pages/Atividades'
 import Mapa from './pages/Mapa'
 import Registro from './pages/Registro'
 import RegistroAdd from './pages/RegistroAdd'
+import RegistroView from './pages/RegistroView'
 import Perfil from './pages/Perfil'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Route path="/mapa" element={<Mapa />} />
       <Route path="/registro" element={<Registro />} />
       <Route path="/registro/adicionar" element={<RegistroAdd />} />
+      <Route path="/registro/view/:id" element={<RegistroView />} />
       <Route path="/perfil" element={<Perfil />} />
     </Routes>
   )
