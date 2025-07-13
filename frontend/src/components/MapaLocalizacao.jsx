@@ -61,7 +61,8 @@ function MapaLocalizacao() {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: '2rem',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontFamily: 'Nunito'
       }}>
         {loadingText}
       </div>

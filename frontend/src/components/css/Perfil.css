@@ -20,6 +20,10 @@
     background-color: #f0f0f0;
 }
 
+div.camp_input {
+    margin-bottom: 1em;
+}
+
 button.update {
     background-color: var(--colorPrimario);
     font-family: "Nunito";
@@ -33,4 +37,20 @@ button.update {
 
 button.update:hover {
     background-color: var(--colorPrimarioFade);
+}
+
+div.dispor button {
+    width: 9em;
+    font-family: "Nunito";
+    font-size: var(--tamanhoTexto);
+    padding: 0.3em 0;
+    border-radius: 0.5em;
+    background-color: var(--colorFundo);
+    font-weight: bold;
+    border: 0.2em solid var(--colorTexto);
+}
+
+div.dispor button.ativo {
+    background-color: var(--colorSecundaria);
+    color: var(--colorFundo);
 }
