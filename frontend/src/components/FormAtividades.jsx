@@ -1,7 +1,7 @@
 import { useState, forwardRef, useImperativeHandle } from 'react'
 import './css/Perfil.css'
 
-const FormOperacao = forwardRef((props, ref) => {
+const FormAtividades = forwardRef((props, ref) => {
   const [tipoSelecionado, setTipoSelecionado] = useState('sensor') // 'sensor' ou 'equipamento'
 
   const [form, setForm] = useState({
@@ -199,4 +199,4 @@ const FormOperacao = forwardRef((props, ref) => {
   )
 })
 
-export default FormOperacao
+export default FormAtividades

@@ -54,3 +54,9 @@ div.dispor button.ativo {
     background-color: var(--colorSecundaria);
     color: var(--colorFundo);
 }
+
+div.dispor button:disabled {
+    opacity: 1;
+    cursor: default;
+    pointer-events: none;
+}

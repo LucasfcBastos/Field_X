@@ -8,6 +8,7 @@ import InicioAdd from './pages/InicioAdd'
 import InicioView from './pages/InicioView'
 import Atividades from './pages/Atividades'
 import AtividadesAdd from './pages/AtividadesAdd'
+import AtividadesView from './pages/AtividadesView'
 import Mapa from './pages/Mapa'
 import Registro from './pages/Registro'
 import RegistroAdd from './pages/RegistroAdd'
@@ -25,7 +26,7 @@ function App() {
       
       <Route path="/atividades" element={<Atividades />} />
       <Route path="/atividades/adicionar" element={<AtividadesAdd />} />
-      <Route path="/atividades/view/:id" element={<InicioView />} />
+      <Route path="/atividades/view/:id" element={<AtividadesView />} />
       
       <Route path="/mapa" element={<Mapa />} />
       
