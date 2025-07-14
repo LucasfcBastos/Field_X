@@ -1,0 +1,21 @@
+.btnIa {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    padding: 0.3em;
+    right: 0;
+}
+
+.btnIa button {
+    width: 5.5em;
+    height: 5.5em;
+    border: 0;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 1em;
+    background-color: var(--colorSecundaria);
+}
+
+.btnIa img {
+    width: 100%;
+}

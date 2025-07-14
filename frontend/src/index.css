@@ -39,7 +39,8 @@ input,
 th,
 td,
 textarea,
-select {
+select,
+pre {
   font-family: "Nunito";
   font-size: var(--tamanhoTexto);
 }
