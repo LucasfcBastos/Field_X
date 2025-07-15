@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { callGeminiApi } from '../../../callGeminiApi'
+import { callGeminiApi } from './callGeminiApi'
 
 function InsightIA() {
   const [insight, setInsight] = useState('')

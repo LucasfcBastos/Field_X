@@ -20,19 +20,23 @@
    git clone https://github.com/LucasfcBastos/Field_X.git
    ```
 
-4. Agora vai até o arquivo callGeminiApi.jsx
+4. Agora vai até o arquivo .env
 
    ```bash
    ├── frontend/
-   ├── callGeminiApi.jsx
-   ├── estrutura.txt
-   ├── README.md
+   │   ├── node_modules/
+   │   ├── public/
+   │   ├── src/
+   │   ├── .env
+   │   ├── .gitignore
+   │   ├── eslint.config.js
    ```
 
-5. Encontra a constante GEMINI_API_KEY é insira a sua chave
+5. Encontra a constante VITE_GEMINI_API_KEY e VITE_SUPABASE_ANON_KEY é insira a sua chave
 
    ```bash
-   const GEMINI_API_KEY = "";
+   VITE_SUPABASE_ANON_KEY=
+   VITE_GEMINI_API_KEY=
    ```
 
 6. Agora no terminal, navegue até o diretório do projeto:

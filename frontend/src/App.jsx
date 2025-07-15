@@ -7,6 +7,7 @@ import Inicio from './pages/Inicio'
 import InicioAdd from './pages/InicioAdd'
 import InicioView from './pages/InicioView'
 import InicioIa from './pages/InicioIa'
+import RelatoriosIa from './pages/RelatoriosIa'
 import Atividades from './pages/Atividades'
 import AtividadesAdd from './pages/AtividadesAdd'
 import AtividadesView from './pages/AtividadesView'
@@ -26,6 +27,7 @@ function App() {
       <Route path="/inicio/view/:id" element={<InicioView />} />
       
       <Route path="/ia" element={<InicioIa />} />
+      <Route path="/ia/supabase" element={<RelatoriosIa />} />
       
       <Route path="/atividades" element={<Atividades />} />
       <Route path="/atividades/adicionar" element={<AtividadesAdd />} />

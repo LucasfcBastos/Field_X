@@ -1,7 +1,7 @@
 // utils/callGeminiApi.js
 export const callGeminiApi = async (prompt) => {
-  const GEMINI_API_KEY = ""; // Insira sua chave aqui ou use variável de ambiente
-  const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
+  const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
+  const GEMINI_API_URL = import.meta.env.VITE_GEMINI_API_URL;
 
   try {
     const chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
@@ -24,10 +24,10 @@ export const callGeminiApi = async (prompt) => {
     ) {
       return result.candidates[0].content.parts[0].text;
     } else {
-      throw new Error('Estrutura de resposta inesperada da API Gemini. 😕');
+      throw new Error('Estrutura de resposta inesperada da API Gemini.');
     }
   } catch (error) {
     console.error("Erro na chamada da API Gemini:", error);
-    throw new Error(`Erro ao se comunicar com a IA: ${error.message || 'Erro de rede/API'} 🙁`);
+    throw new Error(`Erro ao se comunicar com a IA: ${error.message || 'Erro de rede/API'}`);
   }
 };
